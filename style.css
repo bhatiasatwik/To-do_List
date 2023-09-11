@@ -8,7 +8,7 @@
 
 }
 body{
-    background: linear-gradient(135deg,#2b2d42e8,#2b2d42);
+    background-color: #2b2d42;
     display: flex;
     justify-content: center;
 }
@@ -17,7 +17,7 @@ body{
     width: 100%;
     max-width: 700px;
     margin-top: 100px;
-    background-color:#9484c824;
+    background-color:#9484c838;
     padding: 20px;
     border: none;
     border-radius: 15px;
@@ -79,17 +79,19 @@ li
     padding: 12px 8px 12 px 50px;
     position: relative;
 }
-li::before {
-    content:  '';
+input[type='checkbox']
+{
+    margin-right: 10px;
+}
+.checked{
+    text-decoration: line-through;
+}
+span {
+    font-size: 53px;
+    height: 0px;
     position: absolute;
-    height: 20px;
-    width: 20px;
-    border-radius: 60%;
-    background-image: url(images/unchecked.png); /* Corrected URL */
-    background-position: center;
-    background-size:contain;
-    right:100px;
-    top:9px
+    left: 583px;
+    top: -31px;
 }
 
 
